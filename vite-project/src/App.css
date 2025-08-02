@@ -1,0 +1,30 @@
+/* Reset default browser styles and set base typography */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply base font family and background for the entire app */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Smooth transitions for theme-aware components */
+body,
+button,
+input {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Center content vertically and horizontally */
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
