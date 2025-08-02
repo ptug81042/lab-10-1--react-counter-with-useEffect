@@ -1,0 +1,29 @@
+/* Container for all control buttons aligned horizontally */
+.controls {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 1rem; /* Space between buttons */
+    margin-top: 1rem; /* Spacing above controls */
+}
+
+/* Basic styling for all buttons in controls */
+button {
+    background-color: #4a90e2; /* Primary blue background */
+    color: white; /* White text */
+    border: none;
+    padding: 0.6rem 1.2rem; /* Comfortable padding */
+    border-radius: 1rem; /* Slightly rounded corners */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+
+/* Hover effect to darken button background */
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Focus styling for accessibility */
+button:focus-visible {
+    outline: 3px solid #2c5aa0;
+}
