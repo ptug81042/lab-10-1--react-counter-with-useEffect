@@ -1,5 +1,7 @@
 import React from 'react';
 
+import styles from './styles.module.css';
+
 // Import button components
 import IncrementButton from './IncrementButton';
 import DecrementButton from './DecrementButton';
@@ -19,7 +21,7 @@ const CounterControls: React.FC<CounterControlProps> = ({
     onReset,
 }) => {
     return (
-        <div>
+        <div className={styles.controls}>
             {/* Pass handlers to respective buttons */}
             <IncrementButton onIncrement={onIncrement} />
             <DecrementButton onDecrement={onDecrement} />
