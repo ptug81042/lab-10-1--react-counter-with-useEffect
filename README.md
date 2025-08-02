@@ -5,7 +5,7 @@ This project is a React and TypeScript counter application demonstrating core Re
 ## Live Demo
 
 A live version of this app is available at:  
-[https://your-netlify-app-name.netlify.app](https://your-netlify-app-name.netlify.app)
+[https://thunderous-pudding-b11ff1.netlify.app/](https://thunderous-pudding-b11ff1.netlify.app/)
 
 ---
 
