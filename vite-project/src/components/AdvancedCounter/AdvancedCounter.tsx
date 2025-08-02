@@ -1,5 +1,7 @@
 import React, { useState, useCallback } from 'react';
 
+import styles from './styles.module.css';
+
 // Import child components and hooks
 import CounterDisplay from '../CounterDisplay/CounterDisplay';
 import CounterControls from '../CounterControls/CounterControls';
@@ -49,7 +51,7 @@ const AdvancedCounter: React.FC = () => {
     };
 
     return (
-        <section>
+        <section className={`${styles.container} ${styles.section}`}>
             {/* Display current count */}
             <CounterDisplay count={count} />
 
