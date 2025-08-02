@@ -1,0 +1,28 @@
+/* Container styling for the entire AdvancedCounter section */
+.container {
+    max-width: 480px; /* Limit width for readability */
+    margin: 2rem auto; /* Center horizontally with vertical spacing */
+    padding: 1.5rem; /* Inner padding for spacing */
+    background-color: #f0f4f8; /* Light subtle background */
+    border-radius: 8px; /* Rounded corners for smooth look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Responsive layout to stack children vertically with spacing */
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Space between children */
+}
+
+/* Style heading elements inside AdvancedCounter */
+h2, h3 {
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 0.5rem;
+}
+
+/* Accessibility: focus outline for keyword navigation */
+:focus-visible {
+    outline: 3px solid #4a90e2; /* Blue outline on focus */
+}
